@@ -40,14 +40,14 @@ def calculate_similarity_tfidf(code1, code2):
     return similarity[0][0]  # Return the similarity score
 
 # Streamlit UI
-st.title('C++ Code Plagiarism Detection')
+st.title('Text Plagiarism Detection')
 
-st.write("Paste your first C++ code below:")
+st.write("Paste your first Text below:")
 # Input text area for user to paste code
-user_code_1 = st.text_area("Enter your first C++ code here:", height=300)
+user_code_1 = st.text_area("Enter your first Text here:", height=300)
 
-st.write("Paste your second C++ code below:")
-user_code_2 = st.text_area("Enter your second C++ code here:", height=300)
+st.write("Paste your second Text below:")
+user_code_2 = st.text_area("Enter your second Text here:", height=300)
 
 # List files in the 'dataset' folder
 dataset_folder = "dataset"
