@@ -93,7 +93,7 @@ if st.button("Check for Plagiarism"):
         ax3.set_ylabel('Frequency')
         ax3.set_title('Histogram of Similarity Scores')
         ax3.legend()
-        st.pyplot(fig3)
+        # st.pyplot(fig3)
 
     else:
         st.warning("Please paste both texts to check for plagiarism.")
