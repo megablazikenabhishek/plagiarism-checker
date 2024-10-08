@@ -9,7 +9,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 import nltk
 
 # Ensure required NLTK resources are downloaded
-nltk.download('punkt')  # This is necessary for tokenization
+nltk.download('all')  # This is necessary for tokenization
 
 # Preprocessing function to clean the code
 def preprocess_code(code):
